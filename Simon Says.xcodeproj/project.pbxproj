@@ -13,6 +13,14 @@
 		6CF628A825E1EF890037EE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF628A625E1EF890037EE53 /* Main.storyboard */; };
 		6CF628AA25E1EF8B0037EE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF628A925E1EF8B0037EE53 /* Assets.xcassets */; };
 		6CF628AD25E1EF8B0037EE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF628AB25E1EF8B0037EE53 /* LaunchScreen.storyboard */; };
+		6CF628B725E1FBE10037EE53 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF628B625E1FBE10037EE53 /* CircularButton.swift */; };
+		6CF628BE25E2B0BC0037EE53 /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CF628B925E2B0BC0037EE53 /* error.wav */; };
+		6CF628BF25E2B0BC0037EE53 /* simonSound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CF628BA25E2B0BC0037EE53 /* simonSound2.mp3 */; };
+		6CF628C025E2B0BC0037EE53 /* simonSound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CF628BB25E2B0BC0037EE53 /* simonSound3.mp3 */; };
+		6CF628C125E2B0BC0037EE53 /* simonSound4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CF628BC25E2B0BC0037EE53 /* simonSound4.mp3 */; };
+		6CF628C225E2B0BC0037EE53 /* simonSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CF628BD25E2B0BC0037EE53 /* simonSound1.mp3 */; };
+		6CF628C625E2B11C0037EE53 /* Sfx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF628C525E2B11C0037EE53 /* Sfx.swift */; };
+		6CF628CA25E2B7D10037EE53 /* GSAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF628C925E2B7D10037EE53 /* GSAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		6CF628A925E1EF8B0037EE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CF628AC25E1EF8B0037EE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CF628AE25E1EF8B0037EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF628B625E1FBE10037EE53 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		6CF628B925E2B0BC0037EE53 /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = error.wav; sourceTree = "<group>"; };
+		6CF628BA25E2B0BC0037EE53 /* simonSound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = simonSound2.mp3; sourceTree = "<group>"; };
+		6CF628BB25E2B0BC0037EE53 /* simonSound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = simonSound3.mp3; sourceTree = "<group>"; };
+		6CF628BC25E2B0BC0037EE53 /* simonSound4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = simonSound4.mp3; sourceTree = "<group>"; };
+		6CF628BD25E2B0BC0037EE53 /* simonSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = simonSound1.mp3; sourceTree = "<group>"; };
+		6CF628C525E2B11C0037EE53 /* Sfx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sfx.swift; sourceTree = "<group>"; };
+		6CF628C925E2B7D10037EE53 /* GSAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +79,24 @@
 				6CF628A925E1EF8B0037EE53 /* Assets.xcassets */,
 				6CF628AB25E1EF8B0037EE53 /* LaunchScreen.storyboard */,
 				6CF628AE25E1EF8B0037EE53 /* Info.plist */,
+				6CF628B625E1FBE10037EE53 /* CircularButton.swift */,
+				6CF628C425E2B0C10037EE53 /* sounds */,
+				6CF628C525E2B11C0037EE53 /* Sfx.swift */,
+				6CF628C925E2B7D10037EE53 /* GSAudio.swift */,
 			);
 			path = "Simon Says";
+			sourceTree = "<group>";
+		};
+		6CF628C425E2B0C10037EE53 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6CF628B925E2B0BC0037EE53 /* error.wav */,
+				6CF628BD25E2B0BC0037EE53 /* simonSound1.mp3 */,
+				6CF628BA25E2B0BC0037EE53 /* simonSound2.mp3 */,
+				6CF628BB25E2B0BC0037EE53 /* simonSound3.mp3 */,
+				6CF628BC25E2B0BC0037EE53 /* simonSound4.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +156,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF628BF25E2B0BC0037EE53 /* simonSound2.mp3 in Resources */,
 				6CF628AD25E1EF8B0037EE53 /* LaunchScreen.storyboard in Resources */,
 				6CF628AA25E1EF8B0037EE53 /* Assets.xcassets in Resources */,
+				6CF628C125E2B0BC0037EE53 /* simonSound4.mp3 in Resources */,
+				6CF628C025E2B0BC0037EE53 /* simonSound3.mp3 in Resources */,
+				6CF628C225E2B0BC0037EE53 /* simonSound1.mp3 in Resources */,
 				6CF628A825E1EF890037EE53 /* Main.storyboard in Resources */,
+				6CF628BE25E2B0BC0037EE53 /* error.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF628C625E2B11C0037EE53 /* Sfx.swift in Sources */,
+				6CF628B725E1FBE10037EE53 /* CircularButton.swift in Sources */,
+				6CF628CA25E2B7D10037EE53 /* GSAudio.swift in Sources */,
 				6CF628A525E1EF890037EE53 /* ViewController.swift in Sources */,
 				6CF628A125E1EF890037EE53 /* AppDelegate.swift in Sources */,
 				6CF628A325E1EF890037EE53 /* SceneDelegate.swift in Sources */,
